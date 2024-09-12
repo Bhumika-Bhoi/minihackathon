@@ -1,0 +1,144 @@
+
+.top-part {
+    font-size: 28px;
+    font-style: normal;
+    font-weight:400;
+    color: #3C3030;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    line-height:140%;
+    font-family:"Iowan Old Style";
+
+}
+
+
+.dot {
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    background-color:#E84848;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.go-button {
+    height: 45px;
+    display: inline-flex;
+    cursor: pointer;
+    border-radius: 1px;
+border: 1px solid #E84848;
+background: #E84848;
+    color: white;
+    font-size: 20px;
+  line-height: 30px;  
+  font-weight: 400;
+  
+  
+}
+.search_input {
+    color:  #3C3030;
+font-family: "Iowan Old Style";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+padding-left:25px;
+height:40px;
+border: 1px solid #3C3030;
+opacity: 0.4;
+
+}
+.search-bar{
+    margin-top:50px;
+    margin-bottom: 50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.search-icon {
+    position : absolute;
+    padding: 8px;
+    background-color: #fff;
+    color: #bbb;
+
+
+}
+.icon-container {
+    position:relative;
+    display:flex;
+    align-items:center;
+}
+/*article part*/
+h2 {
+    color:#E84848;
+    margin-left:480px;
+    margin-top: 89px;
+}
+
+img {
+    width: 250px;
+height: 120px;
+box-sizing: content-box;
+}
+/*footer*/
+.dot-2 {
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    background-color:#E84848;
+    border-radius: 50%;
+    margin-top: 30px;
+    
+}
+h4 {
+    text-align: center;
+    margin-bottom:30px;
+}
+
+
+.articlespan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2vw; /* Adjust spacing between the articles */
+  }
+  
+  .article-2 {
+    width: 30vw; /* Each article will take up 30% of the viewport width */
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's width */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+  }
+  
+  .article-2 img {
+    width: 100%; /* Make images responsive to article width */
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .article-2 h3 {
+    font-size: 1.5vw; /* Scale heading font size based on viewport */
+  }
+  
+  .article-2 p {
+    font-size: 1.2vw; /* Adjust paragraph font size */
+  }
+  
+  .article-2 footer {
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw; /* Adjust footer font size */
+  }
+  
+  .article-2 footer a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 0.5vw;
+  }
+  
+  
